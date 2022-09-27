@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c $CFILE -o getName($CFILE) + '.o'
+gcc -c $CFILE  
