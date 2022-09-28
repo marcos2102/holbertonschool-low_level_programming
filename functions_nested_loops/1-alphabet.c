@@ -1,19 +1,9 @@
-/*
- * ********
- ****   ***
- **     ***
- *  *   ***
- ****   ***
- ****   ***
- ****   ***
- ****   ***
- ****   ***
- */
 #include "main.h"
+
 /**
- * excercise 1;
- * print_alphabet: print alphabete in lowercase using _putchar
+ * print_alphabet - prints alphabete in lowercase, followed by a new line using '_putchar'
  */
+
 void print_alphabet(void)
 {
 	char letter;
