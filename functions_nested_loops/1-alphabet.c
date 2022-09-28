@@ -6,16 +6,11 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+void print_alphabet(void)
 {
-	void print_alphabet(void)
-	{
-		for (char letter = a; a <= z; a++)
-		{	
-			_putchar(letter);
-		}
-
+	for (char letter = a; a <= z; a++)
+	{	
+		_putchar(letter);
 	}
 	_putchar('\n');
-	return (0);
 }
