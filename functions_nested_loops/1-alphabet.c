@@ -1,10 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point
- *
- * Description: print alphabete in lowercase
- *
- * Return: Always 0 (Success)
+ * print_alphabet: print alphabete in lowercase
  */
 void print_alphabet(void)
 {
