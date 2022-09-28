@@ -10,10 +10,15 @@
 int main(void)
 {
 	int ch;
+
 	ch = 97; /*ascii code for char 'a'*/
 	while (ch <= 122)
 	{
 		putchar(ch);
+		if (ch == 122)
+		{
+			putchar('\n');
+		}
 		ch++;
 	}
 	return (0);
