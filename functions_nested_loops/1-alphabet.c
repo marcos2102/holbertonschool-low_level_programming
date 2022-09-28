@@ -11,7 +11,8 @@
  */
 #include "main.h"
 /**
- * print_alphabet: print alphabete in lowercase
+ * excercise 1;
+ * print_alphabet: print alphabete in lowercase using _putchar
  */
 void print_alphabet(void)
 {
