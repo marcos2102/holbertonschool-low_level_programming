@@ -24,4 +24,5 @@ int main(void)
 		}
 		ch++;
 	}
+	return (0);
 }
