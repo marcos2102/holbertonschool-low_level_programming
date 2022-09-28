@@ -1,8 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
+/**
  * main - Entry point
+ *
+ * Description: is n negative, positive or zero?
  *
  * Return: Always 0 (Success)
  */
