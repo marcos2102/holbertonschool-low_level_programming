@@ -9,6 +9,7 @@
 int main(void)
 {
 	int num;
+
 	num = 48; /*ascii code for char '0'*/
 	while (num <= 57)
 	{
@@ -19,4 +20,5 @@ int main(void)
 		}
 		num++;
 	}
+	return (0);
 }
