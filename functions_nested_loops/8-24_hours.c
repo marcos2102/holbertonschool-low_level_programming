@@ -25,7 +25,7 @@ void jack_bauer(void)
 					if (h1 == 1 && h2 == 9 && m1 == 5 && m2 == 9)
 					{
 						h2 = 0;
-						m2l = 3;
+						h2l = 3;
 					}
 				}
 			}
