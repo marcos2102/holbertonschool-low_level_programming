@@ -5,11 +5,12 @@
 
 void jack_bauer(void)
 {
-	int h1, h2, m1, m2;
+	int h1, h2, m1, m2, h2l;
 
+	h2l = 9;
 	for (h1 = 0; h1 <= 2; h1++)
 	{
-		for (h2 = 0; h2 <= 9; h2++)
+		for (h2 = 0; h2 <= h2l; h2++)
 		{
 			for (m1 = 0; m1 <= 5; m1++)
 			{
@@ -21,6 +22,11 @@ void jack_bauer(void)
 					_putchar(m1 + '0');
 					_putchar(m2 + '0');
 					_putchar('\n');
+					if (h1 == 1 && h2 == 9 && m1 == 5 && m2 == 9)
+					{
+						h2 = 0;
+						m2l = 3;
+					}
 				}
 			}
 		}
