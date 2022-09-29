@@ -5,11 +5,11 @@
  * @n: the number to be checked.
  *
  * Return: 1 if n is greater than zero,
- * 		0 if n is zero,
- * 		-1 if n is less than zero.
+ *		0 if n is zero,
+ *		-1 if n is less than zero.
  */
 
-int print_sign(int n) 
+int print_sign(int n)
 {
 	int rv; /*return value*/
 
@@ -17,11 +17,11 @@ int print_sign(int n)
 	{
 		rv = 1;
 		_putchar('+');
-	} else if (n < 0) 
+	} else if (n < 0)
 	{
 		rv = -1;
 		_putchar('-');
-	} else 
+	} else
 	{
 		rv = 0;
 		_putchar('0');
