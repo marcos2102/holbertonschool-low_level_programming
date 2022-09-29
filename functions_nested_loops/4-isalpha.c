@@ -11,7 +11,7 @@ int _isalpha(int c)
 {
 	int rv; /*return value*/
 
-	if (c >= 65 && c <= 90 || c >= 97 && c <= 122)
+	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
 	{
 		rv = 1;
 	} else
