@@ -10,7 +10,7 @@ void jack_bauer(void)
 	h2l = 9;
 	for (h1 = 0; h1 <= 2; h1++)
 	{
-		if (h1 == 2 && h2 == 9 && m1 == 5 && m2 == 9)
+		if (h1 == 2)
 		{
 			h2 = 0;
 			h2l = 3;
