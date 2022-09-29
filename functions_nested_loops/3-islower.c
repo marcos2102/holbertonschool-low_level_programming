@@ -2,18 +2,21 @@
 /**
  * _islower - checks for lowercase characters.
  *
- * parameter 'c': Stores the ascii code of a character.
+ * @c: Stores the ascii code of the character to be checked.
  *
  * Return: 1 if character 'c' is lowecase, return 0 otherwise.
  */
 
 int _islower(int c)
 {
+	int rv; /*return value*/
+
 	if (c >= 97 && c <= 122)
 	{
-		return (1);
+		rv = 1;
 	} else
 	{
-		return (0);
+		rv = 0;
 	}
+	return (rv);
 }
