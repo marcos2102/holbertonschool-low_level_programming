@@ -1,5 +1,6 @@
 /*functions prototypes for 0.12 holberton project*/
 
+int _putchar(int c);
 int _isupper(int c);
 int _isdigit(int c);
 int  mul(int a, int b);
