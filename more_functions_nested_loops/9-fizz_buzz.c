@@ -8,7 +8,7 @@
  * Return: Always 0 (Success).
  */
 
-void main(void)
+int main(void)
 {
 	int i; /*FOR index*/
 
@@ -33,5 +33,4 @@ void main(void)
 		}
 	}
 	_putchar('\n');
-	return (0);
 }
