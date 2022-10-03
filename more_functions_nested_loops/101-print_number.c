@@ -9,6 +9,12 @@
 
 void print_number(int n)
 {
+	if (n < 0)
+	{
+		_putchar('-');
+		n = n * -1;
+	}
+
 	while (n >= 10)
 	{
 		_putchar(n % 10 + '0');
