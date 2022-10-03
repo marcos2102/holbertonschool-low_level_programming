@@ -11,8 +11,8 @@ void print_number(int n)
 {
 	while (n >= 10)
 	{
-		n = n / 10;
 		_putchar(n % 10 + '0');
+		n = n / 10;
 	}
 	_putchar(n + '0');
 }
