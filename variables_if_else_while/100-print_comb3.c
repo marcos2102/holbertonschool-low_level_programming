@@ -11,15 +11,17 @@ int main(void)
 
 	for (int i = 0; i <= 8; i++)
 	{
-		j= i + 1;
+		j = i + 1;
 		while (j <= 9)
 		{
 		_putchar(i + '0');
 		_putchar(j + '0');
+		if (i != 8)
+			_putchar(',');
 		_putchar(' ');
 		j++;
 		}
 	}
 
-	return 0;
+	return (0);
 }
